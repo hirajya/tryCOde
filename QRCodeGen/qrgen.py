@@ -4,7 +4,7 @@ import re
 
 def generate_qrcode(links):
 
-    folder_path = r"C:\Users\angel\Desktop\tryCOde\QRCodeGen\QRpics"
+    folder_path = r"folder path"
 
     if not os.path.exists(folder_path):
         os.makedirs(folder_path)
